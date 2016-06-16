@@ -1,6 +1,6 @@
 # Monotropic color theme for Emacs
 
-Almost monochromatic theme for emacs. Originally based on [maio/eink-emacs](https://github.com/maio/eink-emacs). 
+(Almost) monochromatic theme for emacs. Originally based on [maio/eink-emacs](https://github.com/maio/eink-emacs). 
 
 ## Example
 
