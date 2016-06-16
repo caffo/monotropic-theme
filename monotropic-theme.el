@@ -25,7 +25,7 @@
    `(font-latex-string-face ((t (:foreground "#a9a9a9"))))
    `(font-lock-builtin-face ((t (:background ,bg :foreground ,fg))))
    `(font-lock-comment-delimiter-face ((t (:foreground "#808080"))))
-   `(font-lock-comment-face ((t (:foreground ,fg :weight bold))))
+   `(font-lock-comment-face ((t (:foreground "#808080"  :slant italic))))
    `(font-lock-constant-face ((t (:foreground ,fg))))
    `(font-lock-doc-face ((t (:foreground ,fg :weight semi-bold))))
    `(font-lock-function-name-face ((t (:foreground ,fg))))
@@ -165,6 +165,8 @@
    `(elixir-ignored-var-face ((t (:foreground, fg, :background, bg ))))
 
    ;; misc
+   `(highlight-symbol-face ((t (:background ,bg-highlight))))
+   `(evil-search-highlight-persist-highlight-face ((t (:background ,bg-highlight))))
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
