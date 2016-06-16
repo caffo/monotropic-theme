@@ -4,5 +4,5 @@ Almost monochromatic theme for emacs. Originally based on [maio/eink-emacs](http
 
 ## Example
 
-![orgmode](https://dl.dropboxusercontent.com/spa/6f6p31rqk1cfe43/es2s9z0a.png)
-![ruby and helm](https://dl.dropboxusercontent.com/spa/6f6p31rqk1cfe43/f4jk1nho.png)
+![orgmode](https://dl.dropboxusercontent.com/spa/6f6p31rqk1cfe43/468_3vdk.png)
+![ruby and helm](https://dl.dropboxusercontent.com/spa/6f6p31rqk1cfe43/-7dsupx_.png)
