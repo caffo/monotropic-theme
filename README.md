@@ -4,5 +4,5 @@
 
 ## Example
 
-![orgmode](https://dl.dropboxusercontent.com/spa/6f6p31rqk1cfe43/468_3vdk.png)
-![ruby and helm](https://dl.dropboxusercontent.com/spa/6f6p31rqk1cfe43/-7dsupx_.png)
+![orgmode](https://dl.dropboxusercontent.com/u/8178/monotropic-orgmode.png)
+![ruby and helm](https://dl.dropboxusercontent.com/u/8178/monotropic-ruby.png)
