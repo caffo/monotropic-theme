@@ -2,7 +2,7 @@
 
 (Almost) monochromatic theme for emacs. Originally based on [maio/eink-emacs](https://github.com/maio/eink-emacs). 
 
-## Example
+## Screenshots
 
 ![orgmode](https://dl.dropboxusercontent.com/u/8178/monotropic-shots/orgmode.png)
 ![elixir + helm](https://dl.dropboxusercontent.com/u/8178/monotropic-shots/elixir.png)
