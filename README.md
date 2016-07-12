@@ -4,5 +4,7 @@
 
 ## Example
 
-![orgmode](https://dl.dropboxusercontent.com/u/8178/monotropic-orgmode.png)
-![ruby and helm](https://dl.dropboxusercontent.com/u/8178/monotropic-ruby.png)
+![orgmode](https://dl.dropboxusercontent.com/u/8178/monotropic-shots/orgmode.png)
+![elixir + helm](https://dl.dropboxusercontent.com/u/8178/monotropic-shots/elixir.png)
+![javascript](https://dl.dropboxusercontent.com/u/8178/monotropic-shots/javascript.png)
+![markdown](https://dl.dropboxusercontent.com/u/8178/monotropic-shots/markdown.png)
