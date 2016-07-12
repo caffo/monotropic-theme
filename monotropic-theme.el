@@ -91,12 +91,25 @@
    `(magit-branch-local ((t (:weight bold))))
    `(magit-branch-remote ((t (:weight bold))))
 
+
+   ;; errors and warnings
+   `(error ((t (:underline "#dadada"))))
+   `(warning ((t (:underline "#dadada"))))
+
    ;; compile
    `(compilation-error ((t (:inherit error))))
 
    ;; flycheck
    `(flycheck-error ((t (:inherit error))))
    `(flycheck-warning ((t (:inherit warning))))
+   `(flycheck-info ((t (:inherit warning))))
+
+   ;; js2
+   `(js2-error ((t (:inherit error))))
+
+   ;; flyspell
+   `(flyspell-duplicate ((t (:inherit error))))
+   `(flyspell-incorrect ((t (:inherit error))))
 
    ;; dired
    `(dired-directory ((t (:weight bold))))
@@ -178,6 +191,8 @@
   (add-to-list
    'custom-theme-load-path
    (file-name-as-directory (file-name-directory load-file-name))))
+
+(set-face-background 'hl-line "#FCFAF0");
 
 (provide-theme 'monotropic)
 ;;; monotropic-theme.el ends here
