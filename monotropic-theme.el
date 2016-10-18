@@ -6,8 +6,8 @@
       (bg-light "#ddddda")
       (fg-light "#ddddda")
       (bg-highlight "#ddddda")
-      (bg-highlight-2 "#e0ffff")
-      (bg-highlight-3 "#19dd89"))
+      (bg-highlight-2 "#f0fcfa")
+      (bg-highlight-3 "#faf0fc"))
 
   (custom-theme-set-faces
    'monotropic
@@ -177,14 +177,16 @@
    `(elixir-atom-face ((t (:foreground, fg, :background, bg :weight bold ))))
    `(elixir-ignored-var-face ((t (:foreground, fg, :background, bg ))))
 
-   ;; misc
+   ;; highlight-symbol
    `(highlight-symbol-face ((t (:background ,bg-highlight))))
    `(evil-search-highlight-persist-highlight-face ((t (:background ,bg-highlight))))
+
+   ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
+   `(bm-face ((t (:background , "#f0f2fc" ))))
    `(cider-result-overlay-face ((t (:weight bold))))))
-
 
 ;;;###autoload
 (when load-file-name
