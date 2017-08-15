@@ -187,6 +187,7 @@
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
    `(bm-face ((t (:background , "#f0f2fc" ))))
    `(cider-result-overlay-face ((t (:weight bold))))))
+   `(shadow ((t (:foreground "grey75"))))
 
 ;;;###autoload
 (when load-file-name
