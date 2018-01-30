@@ -1,3 +1,21 @@
+;;; monotropic-theme.el --- Monotropic Theme
+
+;; Copyright 2018-present, all rights reserved.
+;;
+;; Code licensed under MIT licence.
+
+;; Author: caffo
+;; Version: 0.1
+;; Package-Version: 20180130t0918
+;; Package-Requires: ((emacs "24"))
+;; URL: https://github.com/caffo/monotropic-theme
+
+;;; Commentary:
+
+;; (Almost) monochromatic theme for Emacs. Originally based on maio/eink-emacs.
+
+;;; Code:
+
 (deftheme monotropic
   "Monotropic -- relating to or exhibiting monotropy. Based on https://github.com/maio/eink-emacs")
 
