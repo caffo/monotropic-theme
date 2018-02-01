@@ -29,7 +29,7 @@
 
   (custom-theme-set-faces
    'monotropic
- 
+   
    ;; generic stuff
    `(default ((t (:background ,bg :foreground ,fg))))
    `(button ((t (:foreground ,fg :underline t))))
@@ -122,9 +122,6 @@
    `(flycheck-warning ((t (:inherit warning))))
    `(flycheck-info ((t (:inherit warning))))
 
-   ;; js2
-   `(js2-error ((t (:inherit error))))
-
    ;; flyspell
    `(flyspell-duplicate ((t (:inherit error))))
    `(flyspell-incorrect ((t (:inherit error))))
@@ -172,8 +169,9 @@
 
    ;; js2
    `(js2-function-param ((t (:foreground ,fg))))
+   `(js2-error ((t (:inherit error))))
    `(js2-external-variable ((t (:foreground ,fg))))
-
+   
    ;; perl
    `(cperl-hash-face ((t (:foreground ,fg))))
    `(cperl-array-face ((t (:foreground ,fg))))
