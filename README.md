@@ -8,3 +8,6 @@
 ![elixir + helm](http://caffo.railsplayground.net/temp/monotropic-shots/elixir.png)
 ![javascript](http://caffo.railsplayground.net/temp/monotropic-shots/javascript.png)
 ![markdown](http://caffo.railsplayground.net/temp/monotropic-shots/markdown.png)
+
+
+Font used in screenshots is [Triplicate T3C](https://practicaltypography.com/triplicate.html)
