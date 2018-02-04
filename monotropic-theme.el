@@ -6,7 +6,7 @@
 
 ;; Author: caffo
 ;; Version: 0.1
-;; Package-Version: 20180130t0918
+;; Package-Version: 0
 ;; Package-Requires: ((emacs "24"))
 ;; URL: https://github.com/caffo/monotropic-theme
 
