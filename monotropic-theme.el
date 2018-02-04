@@ -203,15 +203,14 @@
    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
    `(bm-face ((t (:background , "#f0f2fc" ))))
    `(cider-result-overlay-face ((t (:weight bold))))))
+   `(hl-line ((t (:background , "#fcfaf0" ))))
    `(shadow ((t (:foreground "grey75"))))
-
+  
 ;;;###autoload
 (when load-file-name
   (add-to-list
    'custom-theme-load-path
    (file-name-as-directory (file-name-directory load-file-name))))
-
-(set-face-background 'hl-line "#FCFAF0");
 
 (provide-theme 'monotropic)
 ;;; monotropic-theme.el ends here
