@@ -218,6 +218,25 @@
    ;; linum
    `(linum ((t (:foreground ,bg-highlight))))
    `(linum-relative-current-face ((t (:foreground ,fg-light))))
+
+   ;; eshell
+   `(eshell-ls-directory-face ((t (:foreground ,fg :weight bold))))
+   `(eshell-ls-archive-face ((t (:foreground ,fg))))
+   `(eshell-ls-backup-face ((t (:foreground ,fg))))
+   `(eshell-ls-clutter-face ((t (:foreground ,fg))))
+   `(eshell-ls-directory-face ((t (:foreground ,fg))))
+   `(eshell-ls-executable-face ((t (:foreground ,fg))))
+   `(eshell-ls-missing-face ((t (:foreground ,fg))))
+   `(eshell-ls-picture-face ((t (:foreground ,fg))))
+   `(eshell-ls-product-face ((t (:foreground ,fg))))
+   `(eshell-ls-readonly-face ((t (:foreground ,fg))))
+   `(eshell-ls-special-face ((t (:foreground ,fg))))
+   `(eshell-ls-symlink-face ((t (:foreground ,fg))))
+   `(eshell-ls-text-face ((t (:foreground ,fg))))
+   `(eshell-ls-todo-face ((t (:foreground ,fg))))
+   `(eshell-ls-unreadable-face ((t (:foreground ,fg))))
+   `(eshell-prompt-face ((t (:foreground ,fg))))
+
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
