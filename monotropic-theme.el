@@ -214,6 +214,10 @@
    `(avy-lead-face-1 ((t (:inherit avy-lead-face))))
    `(avy-lead-face-2 ((t (:inherit avy-lead-face))))
    `(avy-background-face ((t (:foreground , bg-highlight))))
+
+   ;; linum
+   `(linum ((t (:foreground ,bg-highlight))))
+   `(linum-relative-current-face ((t (:foreground ,fg-light))))
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
