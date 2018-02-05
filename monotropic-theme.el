@@ -22,14 +22,14 @@
 (let ((fg "#111111")
       (bg "#fffffa")
       (bg-light "#ddddda")
-      (fg-light "#ddddda")
+      (fg-light "#808080")
       (bg-highlight "#ddddda")
-      (bg-highlight-2 "#f0fcfa")
+      (bg-highlight-2 "#eeeee8")
       (bg-highlight-3 "#faf0fc"))
 
   (custom-theme-set-faces
    'monotropic
-   
+
    ;; generic stuff
    `(default ((t (:background ,bg :foreground ,fg))))
    `(button ((t (:foreground ,fg :underline t))))
