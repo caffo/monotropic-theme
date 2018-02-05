@@ -205,6 +205,12 @@
    `(global-evil-search-highlight-persist ((t (:background ,bg-highlight))))
    `(evil-ex-search ((t (:background ,bg-highlight))))
    `(evil-ex-lazy-highlight ((t (:background ,bg-highlight))))
+   ;; avy
+   `(avy-lead-face ((t (:foreground ,fg :background ,bg-highlight-2))))
+   `(avy-lead-face-0 ((t (:inherit avy-lead-face, :background ,bg-highlight))))
+   `(avy-lead-face-1 ((t (:inherit avy-lead-face))))
+   `(avy-lead-face-2 ((t (:inherit avy-lead-face))))
+   `(avy-background-face ((t (:foreground , bg-highlight))))
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
