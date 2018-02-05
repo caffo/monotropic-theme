@@ -238,14 +238,16 @@
    `(eshell-prompt-face ((t (:foreground ,fg))))
 
    ;; misc
-   `(idle-highlight ((t (:background ,bg-highlight))))
-   `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
-   `(eshell-prompt ((t (:foreground ,fg :weight bold))))
-   `(bm-face ((t (:background , "#f0f2fc" ))))
-   `(cider-result-overlay-face ((t (:weight bold))))))
-   `(hl-line ((t (:background , "#fcfaf0" ))))
-   `(shadow ((t (:foreground "grey75"))))
-  
+    `(hl-line ((t (:background "#fcfaf0" ))))
+    `(shadow ((t (:foreground "grey75"))))
+    `(idle-highlight ((t (:background ,bg-highlight))))
+    `(yas-field-highlight-face ((t (:background ,bg-highlight-2 :foreground ,fg))))
+    `(eshell-prompt ((t (:foreground ,fg :weight bold))))
+    `(bm-face ((t (:background ,bg-highlight-2 ))))
+    `(org-headline-done ((t (:foreground , "#e2e1d8"  :slant italic))))
+    `(cider-result-overlay-face ((t (:weight bold))))))
+
+
 ;;;###autoload
 (when load-file-name
   (add-to-list
@@ -254,3 +256,4 @@
 
 (provide-theme 'monotropic)
 ;;; monotropic-theme.el ends here
+
