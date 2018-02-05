@@ -197,6 +197,14 @@
    `(highlight-symbol-face ((t (:background ,bg-highlight))))
    `(evil-search-highlight-persist-highlight-face ((t (:background ,bg-highlight))))
 
+   ;; highlight-symbol
+
+   `(highlight ((t (:background ,bg-highlight))))
+   `(highlight-symbol-face ((t (:background ,bg-highlight))))
+   `(evil-search-highlight-persist-highlight-face ((t (:background ,bg-highlight))))
+   `(global-evil-search-highlight-persist ((t (:background ,bg-highlight))))
+   `(evil-ex-search ((t (:background ,bg-highlight))))
+   `(evil-ex-lazy-highlight ((t (:background ,bg-highlight))))
    ;; misc
    `(idle-highlight ((t (:background ,bg-highlight))))
    `(yas-field-highlight-face ((t (:background "#eeeee8" :foreground ,fg))))
