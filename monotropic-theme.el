@@ -205,6 +205,9 @@
    `(global-evil-search-highlight-persist ((t (:background ,bg-highlight))))
    `(evil-ex-search ((t (:background ,bg-highlight))))
    `(evil-ex-lazy-highlight ((t (:background ,bg-highlight))))
+   `(evil-ex-substitute-matches ((t (:background ,bg-highlight))))
+
+
    ;; avy
    `(avy-lead-face ((t (:foreground ,fg :background ,bg-highlight-2))))
    `(avy-lead-face-0 ((t (:inherit avy-lead-face, :background ,bg-highlight))))
