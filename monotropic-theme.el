@@ -237,6 +237,13 @@
    `(eshell-ls-unreadable-face ((t (:foreground ,fg))))
    `(eshell-prompt-face ((t (:foreground ,fg))))
 
+   ;; feebleline
+   `(feebleline-time-face ((t (:foreground ,fg-light))))
+   `(feebleline-linum-face ((t (:foreground ,fg-light))))
+   `(feebleline-bufname-face ((t (:foreground ,fg-light))))
+   `(feebleline-previous-buffer-face ((t (:foreground ,fg-light))))
+   `(feebleline-asterisk-face ((t (:foreground ,fg-light))))
+
    ;; misc
     `(hl-line ((t (:background "#fcfaf0" ))))
     `(shadow ((t (:foreground "grey75"))))
