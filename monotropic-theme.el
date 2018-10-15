@@ -104,7 +104,7 @@
    `(magit-item-mark ((t (:background ,bg-highlight))))
    `(magit-item-highlight ((t (:weight bold))))
    `(magit-section-heading ((t (:weight bold :height 1.2))))
-   `(magit-section-highlight ((t (:inherit default))))
+   `(magit-section-highlight ((t (:inherit nil :weight bold))))
    `(magit-diff-context-highlight ((t (:weight bold))))
    `(magit-branch-local ((t (:weight bold))))
    `(magit-branch-remote ((t (:weight bold))))
