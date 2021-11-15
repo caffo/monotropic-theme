@@ -243,6 +243,9 @@
    `(feebleline-bufname-face ((t (:foreground ,fg-light))))
    `(feebleline-previous-buffer-face ((t (:foreground ,fg-light))))
    `(feebleline-asterisk-face ((t (:foreground ,fg-light))))
+   
+   ;; shell-script mode
+   `(sh-quoted-exec ((t (:background ,bg :foreground ,fg))))
 
    ;; misc
     `(hl-line ((t (:background "#fcfaf0" ))))
